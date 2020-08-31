@@ -12,7 +12,7 @@ Node.js: https://nodejs.org/en/<br>
 
 ## Instalação
 ```
-git clone http://www.tools.ages.pucrs.br/job-quest/WEB
+git clone https://tools.ages.pucrs.br/job-quest/WEB
 cd WEB
 npm/yarn install 
 npm/yarn start
