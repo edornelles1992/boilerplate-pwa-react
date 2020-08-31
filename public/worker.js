@@ -1,7 +1,12 @@
 var CACHE_NAME = 'pwa-task-manager';
-var urlsToCache = [
-  '/',
-];
+
+  /*AQUI VAI AS URLS/ROTAS QUE SERAO CACHEADAS...
+    IMPORTANTE: Atenção as páginas cacheadas pois elas afetam o comportamento no 
+    hot reloading do ambiente de dev, utilize CRTL+F5 para reload + clean cache OU
+    Ative o 'Update on Reload' do service worker no console do seu navegador (CRTL+SHIFT+I no chrome)
+  */
+var urlsToCache = ['/'] 
+
 
 // Install a service worker
 self.addEventListener('install', event => {

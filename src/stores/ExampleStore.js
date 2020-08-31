@@ -1,7 +1,7 @@
 import { observable, action } from "mobx";
 
 class ExampleStore {
-    @observable hello = "store funcionando!";
+    @observable hello = "";
  
     @action.bound
     setHello(hello) {
