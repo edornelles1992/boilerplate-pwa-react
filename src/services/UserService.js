@@ -36,7 +36,7 @@ class UserService {
         return result;
       })
       .catch(error => {
-        console.log(error)
+        console.log(error);
         return strings.errors.genericError;
       });
   }
@@ -48,8 +48,8 @@ class UserService {
         return result;
       })
       .catch(error => {
-        console.log(error)
-        return strings.errors.genericError;;
+        console.log(error);
+        return strings.errors.genericError;
       });
   }
 }
